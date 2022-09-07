@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\MageshKumar\AppData\Local\Temp\testng-eclipse--1396969593\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.test.OppenheimerTest" class="method navigator-link" hash-for-method="BookKeeping_Manager_API(OP_SIT_UC4_Test_01, Verify user is able insert more than one working
+Class Hero Record in DB via Loc...)">BookKeeping_Manager_API(OP_SIT_UC4_Test_01, Verify user is able insert more than one working
+Class Hero Record in DB via Loc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.test.OppenheimerTest" class="method navigator-link" hash-for-method="dispense_TaxRelief_Governet_UI(OP_SIT_UC5_Test_01, Verify that DISPENSE NOW button on the screen is in RED-COLORED, Chrome, http://...)">dispense_TaxRelief_Governet_UI(OP_SIT_UC5_Test_01, Verify that DISPENSE NOW button on the screen is in RED-COLORED, Chrome, http://...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.test.OppenheimerTest" class="method navigator-link" hash-for-method="dispense_TaxRelief_Governet_UI(OP_SIT_UC5_Test_02, Verify that button text on the screen must be exactly &quot;Dispense Now&quot;, Chrome, ht...)">dispense_TaxRelief_Governet_UI(OP_SIT_UC5_Test_02, Verify that button text on the screen must be exactly "Dispense Now", Chrome, ht...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.test.OppenheimerTest" class="method navigator-link" hash-for-method="dispense_TaxRelief_Governet_UI(OP_SIT_UC5_Test_03, Verify that Cash dispensed message is getting displayed once governer clicked th...)">dispense_TaxRelief_Governet_UI(OP_SIT_UC5_Test_03, Verify that Cash dispensed message is getting displayed once governer clicked th...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.test.OppenheimerTest" class="method navigator-link" hash-for-method="insertMultipleRecord_API(OP_SIT_UC2_Test_01, Verify user is able insert more than one working
+Class Hero Record in DB via  AP...)">insertMultipleRecord_API(OP_SIT_UC2_Test_01, Verify user is able insert more than one working
+Class Hero Record in DB via  AP...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.test.OppenheimerTest" class="method navigator-link" hash-for-method="insertMultipleRecord_API(OP_SIT_UC2_Test_03, Verify user is able insert more than one working
+Class Hero Record in DB via  AP...)">insertMultipleRecord_API(OP_SIT_UC2_Test_03, Verify user is able insert more than one working
+Class Hero Record in DB via  AP...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.test.OppenheimerTest" class="method navigator-link" hash-for-method="insertMultipleRecord_API(OP_SIT_UC2_Test_02, Verify user is able insert more than one working
+Class Hero Record in DB via  AP...)">insertMultipleRecord_API(OP_SIT_UC2_Test_02, Verify user is able insert more than one working
+Class Hero Record in DB via  AP...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.test.OppenheimerTest" class="method navigator-link" hash-for-method="insertSingleRecord_API(OP_SIT_UC1_Test_01, Verify user is able to insert SINGLE Class Hero Record in DB via API Call &amp; shou...)">insertSingleRecord_API(OP_SIT_UC1_Test_01, Verify user is able to insert SINGLE Class Hero Record in DB via API Call & shou...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.test.OppenheimerTest" class="method navigator-link" hash-for-method="insertSingleRecord_API(OP_SIT_UC1_Test_02, Verify user is able to insert SINGLE Class Hero Record in DB via API Call &amp; shou...)">insertSingleRecord_API(OP_SIT_UC1_Test_02, Verify user is able to insert SINGLE Class Hero Record in DB via API Call & shou...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.test.OppenheimerTest" class="method navigator-link" hash-for-method="insertSingleRecord_API(OP_SIT_UC1_Test_03, Verify user is able to insert SINGLE Class Hero Record in DB via API Call &amp; shou...)">insertSingleRecord_API(OP_SIT_UC1_Test_03, Verify user is able to insert SINGLE Class Hero Record in DB via API Call & shou...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.test.OppenheimerTest" class="method navigator-link" hash-for-method="uploadSingleRecordIntoDB_UI1(OP_SIT_UC3_Test_01, Chrome, http://localhost:8080/, \src\main\resources\testData\, SingleRecord.csv,...)">uploadSingleRecordIntoDB_UI1(OP_SIT_UC3_Test_01, Chrome, http://localhost:8080/, \src\main\resources\testData\, SingleRecord.csv,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.test.OppenheimerTest" class="method navigator-link" hash-for-method="uploadSingleRecordIntoDB_UI1(OP_SIT_UC3_Test_02, Chrome, http://localhost:8080/, \src\main\resources\testData\, MultipleRecord.cs...)">uploadSingleRecordIntoDB_UI1(OP_SIT_UC3_Test_02, Chrome, http://localhost:8080/, \src\main\resources\testData\, MultipleRecord.cs...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.test.OppenheimerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookKeeping_Manager_API(OP_SIT_UC4_Test_01, Verify user is able insert more than one working
+Class Hero Record in DB via Loc...)">
+                  </a> <!-- BookKeeping_Manager_API(OP_SIT_UC4_Test_01, Verify user is able insert more than one working
+Class Hero Record in DB via Loc...) -->
+                  <span class="method-name">BookKeeping_Manager_API</span>
+                  <span class="parameters">(OP_SIT_UC4_Test_01, Verify user is able insert more than one working
+Class Hero Record in DB via LocalHost API, http://localhost:8080/, /calculator/taxRelief, [
+{
+  "birthday": "07071994",
+  "gender": "M",
+  "name": "Google.M",
+  "natid": "NPHCG$$$$$",
+  "salary": "700.00",
+  "tax": "20.00"
+},
+{
+  "birthday": "07071994",
+  "gender": "M",
+  "name": "Google.M",
+  "natid": "NPHCG$$$$$",
+  "salary": "700.00",
+  "tax": "20.00"
+}], 200, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dispense_TaxRelief_Governet_UI(OP_SIT_UC5_Test_01, Verify that DISPENSE NOW button on the screen is in RED-COLORED, Chrome, http://...)">
+                  </a> <!-- dispense_TaxRelief_Governet_UI(OP_SIT_UC5_Test_01, Verify that DISPENSE NOW button on the screen is in RED-COLORED, Chrome, http://...) -->
+                  <span class="method-name">dispense_TaxRelief_Governet_UI</span>
+                  <span class="parameters">(OP_SIT_UC5_Test_01, Verify that DISPENSE NOW button on the screen is in RED-COLORED, Chrome, http://localhost:8080/, rgba(220, 53, 69, 1))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dispense_TaxRelief_Governet_UI(OP_SIT_UC5_Test_02, Verify that button text on the screen must be exactly &quot;Dispense Now&quot;, Chrome, ht...)">
+                  </a> <!-- dispense_TaxRelief_Governet_UI(OP_SIT_UC5_Test_02, Verify that button text on the screen must be exactly "Dispense Now", Chrome, ht...) -->
+                  <span class="method-name">dispense_TaxRelief_Governet_UI</span>
+                  <span class="parameters">(OP_SIT_UC5_Test_02, Verify that button text on the screen must be exactly "Dispense Now", Chrome, http://localhost:8080/, Dispense Now)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dispense_TaxRelief_Governet_UI(OP_SIT_UC5_Test_03, Verify that Cash dispensed message is getting displayed once governer clicked th...)">
+                  </a> <!-- dispense_TaxRelief_Governet_UI(OP_SIT_UC5_Test_03, Verify that Cash dispensed message is getting displayed once governer clicked th...) -->
+                  <span class="method-name">dispense_TaxRelief_Governet_UI</span>
+                  <span class="parameters">(OP_SIT_UC5_Test_03, Verify that Cash dispensed message is getting displayed once governer clicked the dispense now button , Chrome, http://localhost:8080/, Cash dispensed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="insertMultipleRecord_API(OP_SIT_UC2_Test_01, Verify user is able insert more than one working
+Class Hero Record in DB via  AP...)">
+                  </a> <!-- insertMultipleRecord_API(OP_SIT_UC2_Test_01, Verify user is able insert more than one working
+Class Hero Record in DB via  AP...) -->
+                  <span class="method-name">insertMultipleRecord_API</span>
+                  <span class="parameters">(OP_SIT_UC2_Test_01, Verify user is able insert more than one working
+Class Hero Record in DB via  API, http://localhost:8080/, /calculator/insertMultiple, [
+{
+  "birthday": "07071994",
+  "gender": "F",
+  "name": "Google.M1",
+  "natid": "NPHCG$$$$$",
+  "salary": "100.00",
+  "tax": "52.00"
+},
+{
+  "birthday": "07071994",
+  "gender": "M",
+  "name": "Google.M2",
+  "natid": "NPHCG$$$$$",
+  "salary": "700.00",
+  "tax": "20.00"
+}], 202, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="insertMultipleRecord_API(OP_SIT_UC2_Test_03, Verify user is able insert more than one working
+Class Hero Record in DB via  AP...)">
+                  </a> <!-- insertMultipleRecord_API(OP_SIT_UC2_Test_03, Verify user is able insert more than one working
+Class Hero Record in DB via  AP...) -->
+                  <span class="method-name">insertMultipleRecord_API</span>
+                  <span class="parameters">(OP_SIT_UC2_Test_03, Verify user is able insert more than one working
+Class Hero Record in DB via  API, http://localhost:8080/, /calculator/insertMultiple, [
+{
+  "birthday": "07071994",
+  "gender": "M",
+
+  "name": "Google.M9",
+  "salary": "700.00",
+  "tax": "20.00"
+},
+{
+  "birthday": "07071994",
+  "gender": "M",
+  "name": "Google.M10",
+  "natid": "NPHCG$$$$$",
+  "salary": "700.00",
+  "tax": "20.00"
+}], 500, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="insertMultipleRecord_API(OP_SIT_UC2_Test_02, Verify user is able insert more than one working
+Class Hero Record in DB via  AP...)">
+                  </a> <!-- insertMultipleRecord_API(OP_SIT_UC2_Test_02, Verify user is able insert more than one working
+Class Hero Record in DB via  AP...) -->
+                  <span class="method-name">insertMultipleRecord_API</span>
+                  <span class="parameters">(OP_SIT_UC2_Test_02, Verify user is able insert more than one working
+Class Hero Record in DB via  API, http://localhost:8080/, /calculator/insertMultiple1, [
+{
+  "birthday": "07071994",
+  "gender": "M",
+  "name": "Google.M7",
+  "natid": "NPHCG$$$$$",
+  "salary": "700.00",
+  "tax": "20.00"
+},
+{
+  "birthday": "07071994",
+  "gender": "M",
+  "name": "Google.M8",
+  "natid": "NPHCG$$$$$",
+  "salary": "700.00",
+  "tax": "20.00"
+}], 404, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="insertSingleRecord_API(OP_SIT_UC1_Test_01, Verify user is able to insert SINGLE Class Hero Record in DB via API Call &amp; shou...)">
+                  </a> <!-- insertSingleRecord_API(OP_SIT_UC1_Test_01, Verify user is able to insert SINGLE Class Hero Record in DB via API Call & shou...) -->
+                  <span class="method-name">insertSingleRecord_API</span>
+                  <span class="parameters">(OP_SIT_UC1_Test_01, Verify user is able to insert SINGLE Class Hero Record in DB via API Call & should get 202 response code, http://localhost:8080/, calculator/insert, {
+  "birthday": "07071994",
+  "gender": "M",
+  "name": "Google.S1",
+  "natid": "NPHCG$$$$$",
+  "salary": "700.00",
+  "tax": "20.00"
+}, 202, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="insertSingleRecord_API(OP_SIT_UC1_Test_02, Verify user is able to insert SINGLE Class Hero Record in DB via API Call &amp; shou...)">
+                  </a> <!-- insertSingleRecord_API(OP_SIT_UC1_Test_02, Verify user is able to insert SINGLE Class Hero Record in DB via API Call & shou...) -->
+                  <span class="method-name">insertSingleRecord_API</span>
+                  <span class="parameters">(OP_SIT_UC1_Test_02, Verify user is able to insert SINGLE Class Hero Record in DB via API Call & should get 404 response code, http://localhost:8080/, calculator/insert1, {
+  "birthday": "07071994",
+  "gender": "M",
+  "name": "Google.S6",
+  "natid": "NPHCG$$$$$",
+  "salary": "700.00",
+  "tax": "20.00"
+}, 404, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="insertSingleRecord_API(OP_SIT_UC1_Test_03, Verify user is able to insert SINGLE Class Hero Record in DB via API Call &amp; shou...)">
+                  </a> <!-- insertSingleRecord_API(OP_SIT_UC1_Test_03, Verify user is able to insert SINGLE Class Hero Record in DB via API Call & shou...) -->
+                  <span class="method-name">insertSingleRecord_API</span>
+                  <span class="parameters">(OP_SIT_UC1_Test_03, Verify user is able to insert SINGLE Class Hero Record in DB via API Call & should get 500 response code, http://localhost:8080/, calculator/insert, {
+  "birthday": "07091989",
+  "gender": "M",
+  "name": "Magesh",
+  "salary": "700.00",
+  "tax": "20.00"
+}, 500, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadSingleRecordIntoDB_UI1(OP_SIT_UC3_Test_01, Chrome, http://localhost:8080/, \src\main\resources\testData\, SingleRecord.csv,...)">
+                  </a> <!-- uploadSingleRecordIntoDB_UI1(OP_SIT_UC3_Test_01, Chrome, http://localhost:8080/, \src\main\resources\testData\, SingleRecord.csv,...) -->
+                  <span class="method-name">uploadSingleRecordIntoDB_UI1</span>
+                  <span class="parameters">(OP_SIT_UC3_Test_01, Chrome, http://localhost:8080/, \src\main\resources\testData\, SingleRecord.csv, 200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadSingleRecordIntoDB_UI1(OP_SIT_UC3_Test_02, Chrome, http://localhost:8080/, \src\main\resources\testData\, MultipleRecord.cs...)">
+                  </a> <!-- uploadSingleRecordIntoDB_UI1(OP_SIT_UC3_Test_02, Chrome, http://localhost:8080/, \src\main\resources\testData\, MultipleRecord.cs...) -->
+                  <span class="method-name">uploadSingleRecordIntoDB_UI1</span>
+                  <span class="parameters">(OP_SIT_UC3_Test_02, Chrome, http://localhost:8080/, \src\main\resources\testData\, MultipleRecord.csv, 200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\MageshKumar\AppData\Local\Temp\testng-eclipse--1396969593\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.test.OppenheimerTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'uploadSingleRecordIntoDB_UI1')
+data.setCell(0, 2, 'com.qa.test.OppenheimerTest')
+data.setCell(0, 3, 8488);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'uploadSingleRecordIntoDB_UI1')
+data.setCell(1, 2, 'com.qa.test.OppenheimerTest')
+data.setCell(1, 3, 7064);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'dispense_TaxRelief_Governet_UI')
+data.setCell(2, 2, 'com.qa.test.OppenheimerTest')
+data.setCell(2, 3, 3522);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'dispense_TaxRelief_Governet_UI')
+data.setCell(3, 2, 'com.qa.test.OppenheimerTest')
+data.setCell(3, 3, 3478);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'dispense_TaxRelief_Governet_UI')
+data.setCell(4, 2, 'com.qa.test.OppenheimerTest')
+data.setCell(4, 3, 2831);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'insertSingleRecord_API')
+data.setCell(5, 2, 'com.qa.test.OppenheimerTest')
+data.setCell(5, 3, 1166);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'insertSingleRecord_API')
+data.setCell(6, 2, 'com.qa.test.OppenheimerTest')
+data.setCell(6, 3, 214);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'insertMultipleRecord_API')
+data.setCell(7, 2, 'com.qa.test.OppenheimerTest')
+data.setCell(7, 3, 89);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'insertSingleRecord_API')
+data.setCell(8, 2, 'com.qa.test.OppenheimerTest')
+data.setCell(8, 3, 64);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'insertMultipleRecord_API')
+data.setCell(9, 2, 'com.qa.test.OppenheimerTest')
+data.setCell(9, 3, 24);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'BookKeeping_Manager_API')
+data.setCell(10, 2, 'com.qa.test.OppenheimerTest')
+data.setCell(10, 3, 22);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'insertMultipleRecord_API')
+data.setCell(11, 2, 'com.qa.test.OppenheimerTest')
+data.setCell(11, 3, 19);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.test.OppenheimerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">suiteSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([OP_SIT_UC1_Test_01, Verify user is able to insert SINGLE Class Hero Record in DB via API Call & sho...)</span>
+                <span class="method-start">422 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">insertSingleRecord_API(OP_SIT_UC1_Test_01, Verify user is able to insert SINGLE Class Hero Record in DB via API Call & shou...)</span>
+                <span class="method-start">423 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotAndDeleteCookies([TestResult name=insertSingleRecord_API status=SUCCESS method=OppenheimerTest.insertSingleRecord_API...)</span>
+                <span class="method-start">1591 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([OP_SIT_UC1_Test_02, Verify user is able to insert SINGLE Class Hero Record in DB via API Call & sho...)</span>
+                <span class="method-start">1593 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">insertSingleRecord_API(OP_SIT_UC1_Test_02, Verify user is able to insert SINGLE Class Hero Record in DB via API Call & shou...)</span>
+                <span class="method-start">1593 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotAndDeleteCookies([TestResult name=insertSingleRecord_API status=SUCCESS method=OppenheimerTest.insertSingleRecord_API...)</span>
+                <span class="method-start">1808 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([OP_SIT_UC1_Test_03, Verify user is able to insert SINGLE Class Hero Record in DB via API Call & sho...)</span>
+                <span class="method-start">1808 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">insertSingleRecord_API(OP_SIT_UC1_Test_03, Verify user is able to insert SINGLE Class Hero Record in DB via API Call & shou...)</span>
+                <span class="method-start">1809 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotAndDeleteCookies([TestResult name=insertSingleRecord_API status=SUCCESS method=OppenheimerTest.insertSingleRecord_API...)</span>
+                <span class="method-start">1874 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([OP_SIT_UC2_Test_01, Verify user is able insert more than one working
+Class Hero Record in DB via  A...)</span>
+                <span class="method-start">1897 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">insertMultipleRecord_API(OP_SIT_UC2_Test_01, Verify user is able insert more than one working
+Class Hero Record in DB via  AP...)</span>
+                <span class="method-start">1897 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotAndDeleteCookies([TestResult name=insertMultipleRecord_API status=SUCCESS method=OppenheimerTest.insertMultipleRecord...)</span>
+                <span class="method-start">1922 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([OP_SIT_UC2_Test_02, Verify user is able insert more than one working
+Class Hero Record in DB via  A...)</span>
+                <span class="method-start">1922 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">insertMultipleRecord_API(OP_SIT_UC2_Test_02, Verify user is able insert more than one working
+Class Hero Record in DB via  AP...)</span>
+                <span class="method-start">1922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotAndDeleteCookies([TestResult name=insertMultipleRecord_API status=SUCCESS method=OppenheimerTest.insertMultipleRecord...)</span>
+                <span class="method-start">2011 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([OP_SIT_UC2_Test_03, Verify user is able insert more than one working
+Class Hero Record in DB via  A...)</span>
+                <span class="method-start">2012 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">insertMultipleRecord_API(OP_SIT_UC2_Test_03, Verify user is able insert more than one working
+Class Hero Record in DB via  AP...)</span>
+                <span class="method-start">2012 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotAndDeleteCookies([TestResult name=insertMultipleRecord_API status=SUCCESS method=OppenheimerTest.insertMultipleRecord...)</span>
+                <span class="method-start">2032 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([OP_SIT_UC3_Test_01, Chrome, http://localhost:8080/, \src\main\resources\testData\, SingleRecord.csv...)</span>
+                <span class="method-start">2061 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">uploadSingleRecordIntoDB_UI1(OP_SIT_UC3_Test_01, Chrome, http://localhost:8080/, \src\main\resources\testData\, SingleRecord.csv,...)</span>
+                <span class="method-start">2061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotAndDeleteCookies([TestResult name=uploadSingleRecordIntoDB_UI1 status=SUCCESS method=OppenheimerTest.uploadSingleReco...)</span>
+                <span class="method-start">10554 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([OP_SIT_UC3_Test_02, Chrome, http://localhost:8080/, \src\main\resources\testData\, MultipleRecord.c...)</span>
+                <span class="method-start">10554 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">uploadSingleRecordIntoDB_UI1(OP_SIT_UC3_Test_02, Chrome, http://localhost:8080/, \src\main\resources\testData\, MultipleRecord.cs...)</span>
+                <span class="method-start">10555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotAndDeleteCookies([TestResult name=uploadSingleRecordIntoDB_UI1 status=SUCCESS method=OppenheimerTest.uploadSingleReco...)</span>
+                <span class="method-start">17620 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([OP_SIT_UC4_Test_01, Verify user is able insert more than one working
+Class Hero Record in DB via Lo...)</span>
+                <span class="method-start">17641 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">BookKeeping_Manager_API(OP_SIT_UC4_Test_01, Verify user is able insert more than one working
+Class Hero Record in DB via Loc...)</span>
+                <span class="method-start">17642 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotAndDeleteCookies([TestResult name=BookKeeping_Manager_API status=SUCCESS method=OppenheimerTest.BookKeeping_Manager_A...)</span>
+                <span class="method-start">17665 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([OP_SIT_UC5_Test_01, Verify that DISPENSE NOW button on the screen is in RED-COLORED, Chrome, http:/...)</span>
+                <span class="method-start">17689 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dispense_TaxRelief_Governet_UI(OP_SIT_UC5_Test_01, Verify that DISPENSE NOW button on the screen is in RED-COLORED, Chrome, http://...)</span>
+                <span class="method-start">17689 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotAndDeleteCookies([TestResult name=dispense_TaxRelief_Governet_UI status=SUCCESS method=OppenheimerTest.dispense_TaxRe...)</span>
+                <span class="method-start">21170 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([OP_SIT_UC5_Test_02, Verify that button text on the screen must be exactly "Dispense Now", Chrome, h...)</span>
+                <span class="method-start">21171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dispense_TaxRelief_Governet_UI(OP_SIT_UC5_Test_02, Verify that button text on the screen must be exactly "Dispense Now", Chrome, ht...)</span>
+                <span class="method-start">21172 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotAndDeleteCookies([TestResult name=dispense_TaxRelief_Governet_UI status=SUCCESS method=OppenheimerTest.dispense_TaxRe...)</span>
+                <span class="method-start">24698 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod([OP_SIT_UC5_Test_03, Verify that Cash dispensed message is getting displayed once governer clicked t...)</span>
+                <span class="method-start">24699 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dispense_TaxRelief_Governet_UI(OP_SIT_UC5_Test_03, Verify that Cash dispensed message is getting displayed once governer clicked th...)</span>
+                <span class="method-start">24700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotAndDeleteCookies([TestResult name=dispense_TaxRelief_Governet_UI status=SUCCESS method=OppenheimerTest.dispense_TaxRe...)</span>
+                <span class="method-start">27532 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">suiteTearDown</span>
+                <span class="method-start">27559 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

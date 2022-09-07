@@ -1,0 +1,227 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 07 14:03:30 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>27 seconds (27421 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.test.OppenheimerTest.BookKeeping_Manager_API()'><b>BookKeeping_Manager_API</b><br>Test class: com.qa.test.OppenheimerTest<br>Parameters: OP_SIT_UC4_Test_01, Verify user is able insert more than one working
+Class Hero Record in DB via LocalHost API, http://localhost:8080/, /calculator/taxRelief, [
+{
+  "birthday": "07071994",
+  "gender": "M",
+  "name": "Google.M",
+  "natid": "NPHCG$$$$$",
+  "salary": "700.00",
+  "tax": "20.00"
+},
+{
+  "birthday": "07071994",
+  "gender": "M",
+  "name": "Google.M",
+  "natid": "NPHCG$$$$$",
+  "salary": "700.00",
+  "tax": "20.00"
+}], 200, </td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.OppenheimerTest@22ef9844</td></tr>
+<tr>
+<td title='com.qa.test.OppenheimerTest.dispense_TaxRelief_Governet_UI()'><b>dispense_TaxRelief_Governet_UI</b><br>Test class: com.qa.test.OppenheimerTest<br>Parameters: OP_SIT_UC5_Test_01, Verify that DISPENSE NOW button on the screen is in RED-COLORED, Chrome, http://localhost:8080/, rgba(220, 53, 69, 1)</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.OppenheimerTest@22ef9844</td></tr>
+<tr>
+<td title='com.qa.test.OppenheimerTest.dispense_TaxRelief_Governet_UI()'><b>dispense_TaxRelief_Governet_UI</b><br>Test class: com.qa.test.OppenheimerTest<br>Parameters: OP_SIT_UC5_Test_02, Verify that button text on the screen must be exactly "Dispense Now", Chrome, http://localhost:8080/, Dispense Now</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.OppenheimerTest@22ef9844</td></tr>
+<tr>
+<td title='com.qa.test.OppenheimerTest.dispense_TaxRelief_Governet_UI()'><b>dispense_TaxRelief_Governet_UI</b><br>Test class: com.qa.test.OppenheimerTest<br>Parameters: OP_SIT_UC5_Test_03, Verify that Cash dispensed message is getting displayed once governer clicked the dispense now button , Chrome, http://localhost:8080/, Cash dispensed</td>
+<td></td>
+<td>2</td>
+<td>com.qa.test.OppenheimerTest@22ef9844</td></tr>
+<tr>
+<td title='com.qa.test.OppenheimerTest.insertMultipleRecord_API()'><b>insertMultipleRecord_API</b><br>Test class: com.qa.test.OppenheimerTest<br>Parameters: OP_SIT_UC2_Test_01, Verify user is able insert more than one working
+Class Hero Record in DB via  API, http://localhost:8080/, /calculator/insertMultiple, [
+{
+  "birthday": "07071994",
+  "gender": "F",
+  "name": "Google.M1",
+  "natid": "NPHCG$$$$$",
+  "salary": "100.00",
+  "tax": "52.00"
+},
+{
+  "birthday": "07071994",
+  "gender": "M",
+  "name": "Google.M2",
+  "natid": "NPHCG$$$$$",
+  "salary": "700.00",
+  "tax": "20.00"
+}], 202, </td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.OppenheimerTest@22ef9844</td></tr>
+<tr>
+<td title='com.qa.test.OppenheimerTest.insertMultipleRecord_API()'><b>insertMultipleRecord_API</b><br>Test class: com.qa.test.OppenheimerTest<br>Parameters: OP_SIT_UC2_Test_02, Verify user is able insert more than one working
+Class Hero Record in DB via  API, http://localhost:8080/, /calculator/insertMultiple1, [
+{
+  "birthday": "07071994",
+  "gender": "M",
+  "name": "Google.M7",
+  "natid": "NPHCG$$$$$",
+  "salary": "700.00",
+  "tax": "20.00"
+},
+{
+  "birthday": "07071994",
+  "gender": "M",
+  "name": "Google.M8",
+  "natid": "NPHCG$$$$$",
+  "salary": "700.00",
+  "tax": "20.00"
+}], 404, </td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.OppenheimerTest@22ef9844</td></tr>
+<tr>
+<td title='com.qa.test.OppenheimerTest.insertMultipleRecord_API()'><b>insertMultipleRecord_API</b><br>Test class: com.qa.test.OppenheimerTest<br>Parameters: OP_SIT_UC2_Test_03, Verify user is able insert more than one working
+Class Hero Record in DB via  API, http://localhost:8080/, /calculator/insertMultiple, [
+{
+  "birthday": "07071994",
+  "gender": "M",
+
+  "name": "Google.M9",
+  "salary": "700.00",
+  "tax": "20.00"
+},
+{
+  "birthday": "07071994",
+  "gender": "M",
+  "name": "Google.M10",
+  "natid": "NPHCG$$$$$",
+  "salary": "700.00",
+  "tax": "20.00"
+}], 500, </td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.OppenheimerTest@22ef9844</td></tr>
+<tr>
+<td title='com.qa.test.OppenheimerTest.insertSingleRecord_API()'><b>insertSingleRecord_API</b><br>Test class: com.qa.test.OppenheimerTest<br>Parameters: OP_SIT_UC1_Test_01, Verify user is able to insert SINGLE Class Hero Record in DB via API Call & should get 202 response code, http://localhost:8080/, calculator/insert, {
+  "birthday": "07071994",
+  "gender": "M",
+  "name": "Google.S1",
+  "natid": "NPHCG$$$$$",
+  "salary": "700.00",
+  "tax": "20.00"
+}, 202, </td>
+<td></td>
+<td>1</td>
+<td>com.qa.test.OppenheimerTest@22ef9844</td></tr>
+<tr>
+<td title='com.qa.test.OppenheimerTest.insertSingleRecord_API()'><b>insertSingleRecord_API</b><br>Test class: com.qa.test.OppenheimerTest<br>Parameters: OP_SIT_UC1_Test_02, Verify user is able to insert SINGLE Class Hero Record in DB via API Call & should get 404 response code, http://localhost:8080/, calculator/insert1, {
+  "birthday": "07071994",
+  "gender": "M",
+  "name": "Google.S6",
+  "natid": "NPHCG$$$$$",
+  "salary": "700.00",
+  "tax": "20.00"
+}, 404, </td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.OppenheimerTest@22ef9844</td></tr>
+<tr>
+<td title='com.qa.test.OppenheimerTest.insertSingleRecord_API()'><b>insertSingleRecord_API</b><br>Test class: com.qa.test.OppenheimerTest<br>Parameters: OP_SIT_UC1_Test_03, Verify user is able to insert SINGLE Class Hero Record in DB via API Call & should get 500 response code, http://localhost:8080/, calculator/insert, {
+  "birthday": "07091989",
+  "gender": "M",
+  "name": "Magesh",
+  "salary": "700.00",
+  "tax": "20.00"
+}, 500, </td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.OppenheimerTest@22ef9844</td></tr>
+<tr>
+<td title='com.qa.test.OppenheimerTest.uploadSingleRecordIntoDB_UI1()'><b>uploadSingleRecordIntoDB_UI1</b><br>Test class: com.qa.test.OppenheimerTest<br>Parameters: OP_SIT_UC3_Test_01, Chrome, http://localhost:8080/, \src\main\resources\testData\, SingleRecord.csv, 200</td>
+<td></td>
+<td>8</td>
+<td>com.qa.test.OppenheimerTest@22ef9844</td></tr>
+<tr>
+<td title='com.qa.test.OppenheimerTest.uploadSingleRecordIntoDB_UI1()'><b>uploadSingleRecordIntoDB_UI1</b><br>Test class: com.qa.test.OppenheimerTest<br>Parameters: OP_SIT_UC3_Test_02, Chrome, http://localhost:8080/, \src\main\resources\testData\, MultipleRecord.csv, 200</td>
+<td></td>
+<td>7</td>
+<td>com.qa.test.OppenheimerTest@22ef9844</td></tr>
+</table><p>
+</body>
+</html>
